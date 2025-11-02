@@ -1,6 +1,6 @@
 <h1>minecraft_clone</h1>
 
-<p>A basic procedural voxel terrain experiment with the <strong>Ursina Engine</strong>.</p>
+<p>A basic procedural voxel terrain experiment made with the <strong>Ursina Engine</strong>.</p>
 
 <h2>Features</h2>
 <ul>
@@ -9,7 +9,7 @@
   <li>Easy to modify and extend</li>
 </ul>
 
-<h2>Essentials</h2>
+<h2>Requirements</h2>
 <ul>
   <li>Python 3.8+</li>
   <li><a href="https://www.ursinaengine.org/" target="_blank">Ursina Engine</a></li>
