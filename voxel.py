@@ -7,8 +7,7 @@ class Voxel(Entity):
         color_variation = Vec4(
             (100 + random.randint(-20, 20)) / 255,
             (180 + random.randint(-30, 30)) / 255,
-            (100 + random.randint(-20, 20)) / 255,
-            1
+            (100 + random.randint(-20, 20)) / 255, 1
         )
         super().__init__(
             parent=scene,
@@ -23,7 +22,6 @@ class Voxel(Entity):
 class VoxelController(Entity):
     def __init__(self):
         super().__init__()
-        self.selected_color = color.green
 
     def input(self, key):
         if mouse.hovered_entity and isinstance(mouse.hovered_entity, Voxel):
