@@ -23,7 +23,6 @@ class Voxel(Entity):
 class VoxelController(Entity):
     def __init__(self):
         super().__init__()
-        self.selected_color = color.green
 
     def input(self, key):
         if mouse.hovered_entity and isinstance(mouse.hovered_entity, Voxel):
