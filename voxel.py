@@ -7,8 +7,7 @@ class Voxel(Entity):
         color_variation = Vec4(
             (100 + random.randint(-20, 20)) / 255,
             (180 + random.randint(-30, 30)) / 255,
-            (100 + random.randint(-20, 20)) / 255,
-            1
+            (100 + random.randint(-20, 20)) / 255, 1
         )
         super().__init__(
             parent=scene,
